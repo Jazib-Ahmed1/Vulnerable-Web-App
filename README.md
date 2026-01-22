@@ -1,13 +1,13 @@
 ````markdown
-# 🌌 Corporate Nexus Portal v3.0 Vulnerable Pentest Lab
+ 🌌 Corporate Nexus Portal v3.0 Vulnerable Pentest Lab
 
 ![Vulnerable](https://img.shields.io/badge/status-intentionally_vulnerable-red)
 ![Flask](https://img.shields.io/badge/flask-3.x-blue)
 ![CTF](https://img.shields.io/badge/use-CTF%20%7C%20Pentest%20Training-purple)
 
-⚠️ **WARNING: THIS APPLICATION IS INTENTIONALLY VULNERABLE**
+⚠️ WARNING: THIS APPLICATION IS INTENTIONALLY VULNERABLE
 
-This project is a **deliberately insecure Flask web application** created for:
+This project is a deliberately insecure Flask web application created for:
 
 - 🧪 Web application penetration testing practice  
 - 🏴 Capture The Flag (CTF) challenges  
@@ -15,53 +15,53 @@ This project is a **deliberately insecure Flask web application** created for:
 - 🔴 Red team / blue team training  
 - 🐞 Bug bounty skill development  
 
-❌ **DO NOT deploy this application to production**  
-❌ **DO NOT expose it to the public internet**  
+❌ DO NOT deploy this application to production**  
+❌ DO NOT expose it to the public internet**  
 
 ---
 
-## 🎯 Attack Surface Overview
+🎯 Attack Surface Overview
 
-The application intentionally contains **multiple real-world vulnerabilities**, including:
+The application intentionally contains multiple real-world vulnerabilities, including:
 
-- **SQL Injection (SQLi)** — multiple endpoints
-- **Local File Inclusion (LFI)** — arbitrary file reads
-- **Remote Code Execution (RCE)** — OS command execution
-- **Server-Side Request Forgery (SSRF)** — internal metadata access
-- **Cross-Site Scripting (XSS)** — reflected & stored
-- **Cross-Site Request Forgery (CSRF)** — no protections
-- **Insecure File Uploads**
-- **Sensitive Data Exposure**
+- SQL Injection (SQLi) — multiple endpoints
+- Local File Inclusion (LFI) — arbitrary file reads
+- Remote Code Execution (RCE) — OS command execution
+- Server-Side Request Forgery (SSRF) — internal metadata access
+- Cross-Site Scripting (XSS) — reflected & stored
+- Cross-Site Request Forgery (CSRF) — no protections
+- Insecure File Uploads
+- Sensitive Data Exposure
 
-This lab simulates a **realistic corporate internal portal** with 100+ realistic records.
+This lab simulates a realistic corporate internal portal with 100+ realistic records.
 
 ---
 
-## 🚀 Quick Start (Local Only)
+ 🚀 Quick Start (Local Only)
 
-### 1️⃣ Clone Repository
+ 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/corporate-nexus-portal.git
 cd corporate-nexus-portal
 ````
 
-### 2️⃣ Create Virtual Environment
+ 2️⃣ Create Virtual Environment
 
-```bash
+```
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 3️⃣ Install Dependencies
+ 3️⃣ Install Dependencies
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run the Application
+4️⃣ Run the Application
 
-```bash
+```
 python3 app.py
 ```
 
