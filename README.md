@@ -1,11 +1,5 @@
-Below is a **complete, professional, copy-paste READY `README.md`** tailored **specifically for your app** and written the way **real pentest labs / CTF repos** are documented.
-
-You can paste this **as-is** into GitHub or into a local `README.md`.
-
----
-
 ````markdown
-# 🌌 Corporate Nexus Portal v3.0 — Vulnerable Pentest Lab
+# 🌌 Corporate Nexus Portal v3.0 Vulnerable Pentest Lab
 
 ![Vulnerable](https://img.shields.io/badge/status-intentionally_vulnerable-red)
 ![Flask](https://img.shields.io/badge/flask-3.x-blue)
@@ -191,5 +185,3 @@ You are **NOT permitted** to:
 Happy hacking — **ethically**. 🛡️🏴
 
 ```
-
----
