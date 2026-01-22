@@ -183,5 +183,3 @@ You are **NOT permitted** to:
 ---
 
 Happy hacking — **ethically**. 🛡️🏴
-
-```
